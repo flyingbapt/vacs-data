@@ -194,7 +194,9 @@
             "station_id": "BIVO_I_TWR"
           },
           {
-            "label": []
+            "label": ["EKVG", "Vagar"],
+            "color": "taupe",
+            "station_id": "EKVG_I_TWR"
           }
         ]
       }

@@ -192,3 +192,10 @@ controlled_by = ["BIVM_I_TWR"]
 id = "BIVO_I_TWR"
 parent_id = "BIRD_S_L"
 controlled_by = ["BIVO_I_TWR"]
+
+# Vagar (Faroe Islands)
+
+[[stations]]
+id = "EKVG_I_TWR"
+parent_id = "BIRD_E_L"
+controlled_by = ["EKVG_I_TWR"]

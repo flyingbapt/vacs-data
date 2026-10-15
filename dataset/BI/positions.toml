@@ -242,3 +242,11 @@ frequency = "118.100"
 facility_type = "TWR"
 profile_id = "BIRD"
 default_call_sources = ["BIVO_I_TWR"]
+
+[[positions]]
+id = "EKVG_I_TWR"
+prefixes = ["EKVG"]
+frequency = "124.850"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["EKVG_I_TWR"]
