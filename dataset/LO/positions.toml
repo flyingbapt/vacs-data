@@ -452,7 +452,7 @@ default_call_sources = ["LOWI_TWR"]
 [[positions]]
 id = "LOWK_TWR"
 prefixes = ["LOWK"]
-frequency = "118.125"
+frequency = "118.100"
 facility_type = "TWR"
 profile_id = "LOVV"
 default_call_sources = ["LOWK_TWR"]
