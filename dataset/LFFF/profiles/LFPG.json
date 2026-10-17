@@ -220,13 +220,12 @@
       }
     },
     {
-      "label": ["3", "EGA TWR ", ""],
+      "label": ["2", "EGA", ""],
       "page": {
         "rows": 6,
         "keys": [
           {
-            "label": [],
-            "station_id": "lfob"
+            "label": []
           },
           {
             "label": ["LE BOURGET", "INFO"],
@@ -290,8 +289,7 @@
             "station_id": "LFOB_TWR"
           },
           {
-            "label": [],
-            "station_id": "LFPV"
+            "label": []
           },
           {
             "label": ["LFPV", "TWR"],
@@ -399,11 +397,16 @@
       }
     },
     {
-      "label": ["2", "ALL"],
+      "label": ["3", "ALL"],
       "page": {
         "rows": 6,
         "client_page": {
-          "include": ["PAR*", "LFO*", "LFP*", "LFQ*"],
+          "include": [
+            "PAR*",
+            "LFO*",
+            "LFP*",
+            "LFQ*"
+          ],
           "exclude": [],
           "priority": [
             "*_FMP",
