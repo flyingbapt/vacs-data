@@ -220,7 +220,7 @@
       }
     },
     {
-      "label": ["3", "EGA TWR ", ""],
+      "label": ["3", "EGA", ""],
       "page": {
         "rows": 6,
         "keys": [
@@ -397,11 +397,16 @@
       }
     },
     {
-      "label": ["2", "ALL"],
+      "label": ["3", "ALL"],
       "page": {
         "rows": 6,
         "client_page": {
-          "include": ["PAR*", "LFO*", "LFP*", "LFQ*"],
+          "include": [
+            "PAR*",
+            "LFO*",
+            "LFP*",
+            "LFQ*"
+          ],
           "exclude": [],
           "priority": [
             "*_FMP",
