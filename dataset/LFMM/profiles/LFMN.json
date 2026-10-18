@@ -194,11 +194,13 @@
           },
           {
             "label": ["LFMC", "TWR"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFMC_TWR"
           },
           {
             "label": ["LFMC", "GND"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFMC_GND"
           },
           {
             "label": ["LFTZ"],
