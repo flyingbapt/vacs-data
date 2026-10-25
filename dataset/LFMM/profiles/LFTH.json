@@ -60,8 +60,7 @@
           },
           {
             "label": ["LFTF", "TWR"],
-            "color": "snow",
-            "station_id": "LFTF_TWR"
+            "color": "snow"
           },
           {
             "label": ["TWR"],
