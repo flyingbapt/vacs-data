@@ -141,10 +141,22 @@
       }
     },
     {
-      "label": ["ALL", "2"],
+      "label": ["2", "ALL"],
       "page": {
-        "rows": 4,
-        "keys": []
+        "rows": 6,
+        "client_page": {
+          "include": ["LFMM*", "LIMM*", "LFM*"],
+          "exclude": [],
+          "priority": [
+            "*_FMP",
+            "*_CTR",
+            "*_APP",
+            "*_TWR",
+            "*_GND",
+            "*_RMP",
+            "*_DEL"
+          ]
+        }
       }
     }
   ]
