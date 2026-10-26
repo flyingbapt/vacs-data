@@ -38,7 +38,7 @@
             "station_id": "LFLY_TWR"
           },
           {
-            "label": ["CDC", "LYON", "VERDUN"],
+            "label": ["LFFM", "MIL"],
             "color": "blush",
             "station_id": "LFFM_CTR"
           },
