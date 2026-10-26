@@ -247,7 +247,13 @@ prefixes = ["LFLB"]
 frequency = "121.205"
 facility_type = "APP"
 profile_id = "LFLL"
-default_call_sources = ["LFLB_APP", "LFLB_I_APP", "LFLB_TWR", "LFLP_TWR", "LFLP_GND"]
+default_call_sources = [
+  "LFLB_APP",
+  "LFLB_I_APP",
+  "LFLB_TWR",
+  "LFLP_TWR",
+  "LFLP_GND",
+]
 
 [[positions]]
 id = "LFLB_I_APP"
