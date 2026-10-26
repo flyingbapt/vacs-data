@@ -542,6 +542,11 @@ parent_id = "LFLN_TWR"
 controlled_by = ["LFLN_GND"]
 
 [[stations]]
+id = "LFLP_GND"
+parent_id = "LFLP_TWR"
+controlled_by = ["LFLP_GND"]
+
+[[stations]]
 id = "LFLS_GND"
 parent_id = "LFLS_TWR"
 controlled_by = ["LFLS_GND"]
