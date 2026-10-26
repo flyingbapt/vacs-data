@@ -13,7 +13,7 @@
             "station_id": "LFMM_FMP"
           },
           {
-            "label": ["LFMM", "LS"],
+            "label": ["LFMM", "LO"],
             "color": "taupe",
             "station_id": "LFMM_LO"
           },
@@ -32,13 +32,12 @@
             "label": []
           },
           {
-            "label": ["FMP", "LSAS"],
-            "color": "lilac"
+            "label": ["", ""]
           },
           {
-            "label": ["LFMM", "MO"],
+            "label": ["LFMM", "LS"],
             "color": "taupe",
-            "station_id": "LFMM_MO"
+            "station_id": "LFMM_LS"
           },
           {
             "label": ["LFLL", "VE"],
@@ -66,9 +65,9 @@
             "station_id": "LFLB_TWR"
           },
           {
-            "label": ["LFMM", "MN"],
+            "label": ["LFMM", "LE"],
             "color": "taupe",
-            "station_id": "LFMM_MN"
+            "station_id": "LFMM_LE"
           },
           {
             "label": ["LFLL", "ITM"],
@@ -90,7 +89,9 @@
             "station_id": "LFLB_APP"
           },
           {
-            "label": [""]
+            "label": ["LFMM", "MO"],
+            "color": "taupe",
+            "station_id": "LFMM_MO"
           },
           {
             "label": ["LSGG", "ARR"],
@@ -145,7 +146,26 @@
       "label": ["2", "ALL"],
       "page": {
         "rows": 6,
-        "keys": []
+        "client_page": {
+          "include": [
+            "LFEE*",
+            "LFMM*",
+            "PAR*",
+            "LFL*",
+            "LFM*",
+            "LFS*"
+          ],
+          "exclude": [],
+          "priority": [
+            "*_FMP",
+            "*_CTR",
+            "*_APP",
+            "*_TWR",
+            "*_GND",
+            "*_RMP",
+            "*_DEL"
+          ]
+        }
       }
     }
   ]
